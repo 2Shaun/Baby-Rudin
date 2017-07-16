@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+
+\usepackage{bbding}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\author{Tommy O'Shaughnnesy}
+\title{Principles of Mathematical Analysis Notes}
+% Optional commands: \email and \bottomtext
+%\email{thomas_oshaughnessy@mymail.rcbc.edu}
+%\bottomtext{}
+
+\begin{document}
+\maketitle
+\section{Addition in the Real Number Field}
+\begin{proof}
+Let $\alpha$ and $\beta$ be cuts, such that $\alpha\subset\beta$. 
+Let $r\in\alpha$ and $s\in\beta$. The cut defined by $\alpha+\beta$ is thus the set of all $r+s$. 
+Since $\alpha\in\beta$, by (II), $r-s\in\alpha$. Since $r=r-s+s$, we can say $(r-s)+(s)
+\in\alpha+\beta$ and therefore $r\in\alpha+\beta$.\\
+\end{proof}
+
+\begin{proof}
+To verify that $\alpha + \beta$ satisfies (II), for some $r' \in \alpha$ such that $r < r'$ and 
+$s' \in \beta$ such that $s < s'$. It follows that $r + s < r' + s' \in \alpha + \beta$.
+\end{proof}
+\section{Chapter 1 Exercises}
+\subsection{1.1}
+\begin{proof}
+				To prove (a) by contradiction, let $r + x = \frac{p}{q}$ for some $p,q \in \mathbb{Z}$.
+				It follows that $x = \frac{p-rq}{q}$ which contradicts $x \in \mathbb{I}$.
+				Thus, $r + x \in \mathbb{I}$. \\
+				Similarly, to prove (b) by contradiction,
+				let $rx = \frac{p}{q}$. It follows that $x = \frac{p}{qr}$ 
+				which contradicts $x \in \mathbb{I}$. Thus, $rx \notin \mathbb{Q}$.
+\end{proof}
+\subsection{1.2}
+
+
+\end{document}

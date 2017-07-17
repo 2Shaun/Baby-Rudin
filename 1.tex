@@ -2,6 +2,7 @@
 
 \usepackage{bbding}
 \usepackage{amsthm}
+\usepackage{amsmath}
 \usepackage{amsfonts}
 
 \author{Tommy O'Shaughnnesy}
@@ -35,6 +36,16 @@ $s' \in \beta$ such that $s < s'$. It follows that $r + s < r' + s' \in \alpha +
 				which contradicts $x \in \mathbb{I}$. Thus, $rx \notin \mathbb{Q}$.
 \end{proof}
 \subsection{1.2}
-
+\begin{proof}
+				To prove this by contradiction, assume $\frac{p^{2}}{q^{2}}=12$. It follows that 
+				\begin{gather*}
+								p^{2}=12q^{2}=2^{2}\cdot3^{1}\cdot q^{2}.
+				\end{gather*}
+				
+								By the fundamental theorem of arithmetic, $p^{2}$ must factor into a
+				product of primes of even multiplicity. By the same argument, $q^{2}$ must factor into
+				a product of an even multiplicity of $3$, contradicting the unique factorization of $p$.
+				Therefore, the assumption is false and $\sqrt{12}\in\mathbb{I}$.
+\end{proof}
 
 \end{document}

@@ -13,6 +13,72 @@
 
 \begin{document}
 \maketitle
+\section{Chapter 1 Exercises}
+\subsection{}
+\begin{proof}
+				To prove (a) by contradiction, let $r + x = \frac{p}{q}$ for some $p,q \in \mathbb{Z}$.
+				It follows that $x = \frac{p-rq}{q}$ which contradicts $x \in \mathbb{I}$.
+				Thus, $r + x \in \mathbb{I}$. \\
+				Similarly, to prove (b) by contradiction,
+				let $rx = \frac{p}{q}$. It follows that $x = \frac{p}{qr}$ 
+				which contradicts $x \in \mathbb{I}$. Thus, $rx \notin \mathbb{Q}$.
+\end{proof}
+\subsection{}
+\begin{proof}
+				To prove this by contradiction, assume $\frac{p^{2}}{q^{2}}=12$. It follows that 
+				\begin{gather*}
+								p^{2}=12q^{2}=2^{2}\cdot3^{1}\cdot q^{2}.
+				\end{gather*}
+				
+								By the fundamental theorem of arithmetic, $p^{2}$ must factor into a
+				product of primes of even multiplicity. By the same argument, $q^{2}$ must factor into
+				a product of an even multiplicity of $3$, contradicting the unique factorization of $p$.
+				Therefore, the assumption is false and $\sqrt{12}\in\mathbb{I}$.
+\end{proof}
+\subsection{}
+\begin{proof}
+				To prove (a), by (M5)
+				\begin{gather*}
+					\frac{1}{x}xy=\frac{1}{x}xz=y=z.
+				\end{gather*}
+\end{proof}
+\begin{proof}
+				To prove (b), by (M4)
+				\begin{gather*}
+								x1=x=xy.
+				\end{gather*}
+				By (a), $1=y$.
+\end{proof}
+\begin{proof}
+				To prove (c), by (M5)
+				\begin{gather*}	
+								x\frac{1}{x}=1=xy.
+				\end{gather*}	
+				By (a), $y=\frac{1}{x}$.
+\end{proof}
+\begin{proof}
+				To prove (d), by (M5)
+				\begin{gather*}
+								\frac{1}{x}1/(1/x)=1=\frac{1}{x}x.
+				\end{gather*}
+				By (a), $1/(1/x)=x$.
+\end{proof}
+\subsection{}
+\begin{proof}
+				By the definition of lower bound, $\alpha\leq x$ for every $x\in E$.
+				By the definition of upper bound, $x\leq\beta$. Combining inequalities, 
+				$\alpha\leq x\leq\beta$, which implies $\alpha\leq\beta$.
+\end{proof}
+\subsection{}
+\begin{proof}
+				Since $A$ is bounded below, let $\alpha=\inf A$. By the definition of greatest lower bound,
+				$x\geq\alpha$ for all $x\in A$. It follows that $-x\leq-\alpha$ for all $-x\in A$.
+				Let $-x=y$ for some $y\in-A$. Therefore, $y\leq-\inf A=\sup -A$, for all $y\in-A$.
+				It follows that
+				\begin{gather*}
+							(-1)-\inf A=(-1)\sup -A=\inf A=-\sup-A.
+				\end{gather*}
+\end{proof}
 \section{Addition in the Real Number Field}
 \begin{proof}
 Let $\alpha$ and $\beta$ be cuts, such that $\alpha\subset\beta$. 
@@ -24,28 +90,6 @@ Since $\alpha\in\beta$, by (II), $r-s\in\alpha$. Since $r=r-s+s$, we can say $(r
 \begin{proof}
 To verify that $\alpha + \beta$ satisfies (II), for some $r' \in \alpha$ such that $r < r'$ and 
 $s' \in \beta$ such that $s < s'$. It follows that $r + s < r' + s' \in \alpha + \beta$.
-\end{proof}
-\section{Chapter 1 Exercises}
-\subsection{1.1}
-\begin{proof}
-				To prove (a) by contradiction, let $r + x = \frac{p}{q}$ for some $p,q \in \mathbb{Z}$.
-				It follows that $x = \frac{p-rq}{q}$ which contradicts $x \in \mathbb{I}$.
-				Thus, $r + x \in \mathbb{I}$. \\
-				Similarly, to prove (b) by contradiction,
-				let $rx = \frac{p}{q}$. It follows that $x = \frac{p}{qr}$ 
-				which contradicts $x \in \mathbb{I}$. Thus, $rx \notin \mathbb{Q}$.
-\end{proof}
-\subsection{1.2}
-\begin{proof}
-				To prove this by contradiction, assume $\frac{p^{2}}{q^{2}}=12$. It follows that 
-				\begin{gather*}
-								p^{2}=12q^{2}=2^{2}\cdot3^{1}\cdot q^{2}.
-				\end{gather*}
-				
-								By the fundamental theorem of arithmetic, $p^{2}$ must factor into a
-				product of primes of even multiplicity. By the same argument, $q^{2}$ must factor into
-				a product of an even multiplicity of $3$, contradicting the unique factorization of $p$.
-				Therefore, the assumption is false and $\sqrt{12}\in\mathbb{I}$.
 \end{proof}
 
 \end{document}

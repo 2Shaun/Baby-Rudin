@@ -2,6 +2,7 @@
 
 \usepackage{bbding}
 \usepackage{amsthm}
+\usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 
@@ -79,6 +80,54 @@
 							(-1)-\inf A=(-1)\sup -A=\inf A=-\sup-A.
 				\end{gather*}
 \end{proof}
+\subsection{}
+\begin{proof}
+				To prove (a), first notice that $m=rn$. By Corollary 1.21, it follows that
+				\begin{gather*}
+								(b^{m})^{\frac{1}{n}}=(b^{rn})^{\frac{1}{n}}=b^{r}.
+				\end{gather*}
+				Theorem 1.21 shows that $b^{r}=(b^{m})^{\frac{1}{n}}$.
+\end{proof}
+\begin{proof}
+				To prove (b) by Corollary 1.21, it follows that
+				\begin{gather*}
+								(b^rb^s)^\frac{1}{r}=b\cdot b^{\frac{s}{r}}=b^{\frac{s}{r}+1}=b^{\frac{s+r}{r}}=
+								(b^{s+r})^{\frac{1}{r}}.
+				\end{gather*}
+				Thus, by Theorem 1.21, $b^rb^s=b^{r+s}$.
+\end{proof}
+\begin{proof}
+				To prove (c), first we will prove that $B(x)$ has the least upper bound property. Let 
+				$\varepsilon>0$, $b=1+\varepsilon$, and $t=x$. It follows that $b^t\leq b^x$, therefore
+				$b^t\in B(x)$ and $B(x)$ is not empty. Next, notice that $x<x+\varepsilon$. Since $b>1$,
+				\begin{gather*}
+								b^{x-\varepsilon}<b^t\leq b^x<b^{x+\varepsilon}. 
+				\end{gather*}
+				Notice that 
+				$b^{x+\varepsilon}\notin B(x)$ and $b^{x-\varepsilon}$ is not an upper bound, because 
+				$b^{x+\varepsilon}\nleq b^x$ and $b^{x-\varepsilon}<b^x\in B(x)$. By Definition 1.8,
+				$b^x = \sup B(x)$ for any $x\in\mathbb{R}$.
+\end{proof}
+\begin{proof}
+				To prove (d), ...
+\end{proof}
+\subsection{}
+\begin{proof}
+				To prove (a) using the equality
+				\begin{gather*}
+								b^n-a^n=(b-a)(b^{n-1}+b^{n-2}a+...+a^{n-1})
+				\end{gather*}
+				where $a=1$, yields
+				\begin{gather*}
+								b^n-1=(b-1)(b^{n-1}+b^{n-2}+...+1).
+				\end{gather*}
+				Notice that there are $n$ terms in right side of the equality. Since $b>1$, 
+				it follows by (D) that
+				\begin{gather*}
+								b^n-1=b^{n-1}(b-1)+b^{n-2}(b-1)+...+(b-1)\geq n(b-1).
+				\end{gather*}
+\end{proof}
+
 \section{Addition in the Real Number Field}
 \begin{proof}
 Let $\alpha$ and $\beta$ be cuts, such that $\alpha\subset\beta$. 

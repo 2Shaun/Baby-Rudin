@@ -1,5 +1,5 @@
 # Fdb version 3
-["latex"] 1500318588 "1.tex" "1.dvi" "1" 1500318626
+["latex"] 1500578668 "1.tex" "1.dvi" "1" 1500578668
   "/etc/texmf/web2c/texmf.cnf" 1498647026 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -23,6 +23,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1480098701 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty" 1480098820 12225 3cca0d18522255979a1047206228b9d0 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1480098820 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
+  "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1480098820 13829 94730e64147574077f8ecfea9bb69af4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd" 1480098820 961 6518c6525a34feb5e8250ffa91731cff ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd" 1480098820 961 d02606146ba5601b5645f987c92e6193 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1480098820 2210 5c54ab129b848a5071554186d0168766 ""
@@ -36,9 +37,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1498703455 32056 f2fa53deeb4ff8fe080a0f8fca2dba71 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1498703455 32056 f2fa53deeb4ff8fe080a0f8fca2dba71 ""
   "/var/lib/texmf/web2c/pdftex/latex.fmt" 1499770010 723707 022589269e0b2a78e8240da0122f7b4f ""
-  "1.aux" 1500318588 519 8ad35bc68669c9e39272bb4037988e11 ""
-  "1.tex" 1500318588 3183 f0ab65240d694f0b77d8b15818ba3b36 ""
+  "1.aux" 1500578668 653 b1a5886fa2337a197795ea630f5177f9 ""
+  "1.tex" 1500578667 4935 86e51eb25090e80a5fb5a01790fefa71 ""
   (generated)
   "1.dvi"
-  "1.aux"
   "1.log"
+  "1.aux"

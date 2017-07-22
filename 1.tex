@@ -127,6 +127,30 @@
 								b^n-1=b^{n-1}(b-1)+b^{n-2}(b-1)+...+(b-1)\geq n(b-1).
 				\end{gather*}
 \end{proof}
+\begin{proof}
+				To prove (b) using the same equality, let $b=\beta^n$. 
+				Substituting $\beta$ for $b$
+				\begin{gather*}
+								b-1=\beta^n-1=(\beta-1)(\beta^{n-1}+\beta^{n-2}+...+1),
+				\end{gather*}
+				Notice that $\beta = b^{\frac{1}{n}}$. Substituting
+				\begin{gather*}
+								(b^\frac{1}{n}-1)((b^\frac{1}{n})^{n-1}+(b^\frac{1}{n})^{n-2}+...+1)\geq
+								n(b^\frac{1}{n}-1),
+				\end{gather*}
+				is true because $b^x>1$ for all $x\in\mathbb{R}$.
+\end{proof}
+\begin{proof}
+				To prove (c), first divide $n(b^\frac{1}{n}-1)<b-1$ by the assumed inequality $n(t-1)<b-1$,
+				giving $\frac{b^\frac{1}{n}-1}{t-1}<1$. It follows that $b^\frac{1}{n}<t$.
+\end{proof}
+\begin{proof}
+				To prove (d), let $t=yb^{-w}$. Notice that $t>1$ from the antecedent. It follows from (c)
+				that $b^\frac{1}{n}<yb^{-w}$, and thus $b^\frac{1}{n}b^w<y$. By exercise 6(b),
+				$b^{\frac{1}{n}+w}<y$.
+\end{proof}
+
+
 
 \section{Addition in the Real Number Field}
 \begin{proof}

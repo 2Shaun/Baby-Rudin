@@ -1,5 +1,5 @@
 # Fdb version 3
-["latex"] 1500751884 "1.tex" "1.dvi" "1" 1500751884
+["latex"] 1501631553 "1.tex" "1.dvi" "1" 1501631553
   "/etc/texmf/web2c/texmf.cnf" 1498647026 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -34,12 +34,12 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1480098821 19821 310da678527a7dfe2a02c88af38079b7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo" 1480098821 8303 1d67e16498f00f63da792fab169302fc ""
   "/usr/share/texlive/texmf-dist/tex/latex/bbding/bbding.sty" 1480098821 7225 9b2f9a70c30e88d8bba0d20fcca8b94e ""
-  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1498703455 32056 f2fa53deeb4ff8fe080a0f8fca2dba71 ""
-  "/usr/share/texmf/web2c/texmf.cnf" 1498703455 32056 f2fa53deeb4ff8fe080a0f8fca2dba71 ""
-  "/var/lib/texmf/web2c/pdftex/latex.fmt" 1499770010 723707 022589269e0b2a78e8240da0122f7b4f ""
-  "1.aux" 1500751884 653 b1a5886fa2337a197795ea630f5177f9 ""
-  "1.tex" 1500751883 5846 a64d0d61271bdebf484a6f8b88352798 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1500850919 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1500850919 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
+  "/var/lib/texmf/web2c/pdftex/latex.fmt" 1501064986 723707 21d9162bc4429118ec83ce5e87501293 ""
+  "1.aux" 1501631553 720 130de1af86a33e766e85b2b6b14de37b ""
+  "1.tex" 1501631553 6328 2f6efbfd20a42267ddc079cae550c949 ""
   (generated)
+  "1.aux"
   "1.log"
   "1.dvi"
-  "1.aux"
